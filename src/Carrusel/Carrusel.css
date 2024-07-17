@@ -1,0 +1,22 @@
+h3 {
+    background: #000;
+    margin: 0 10px;
+    color: aqua;
+    text-align: center;
+    line-height: 50px;
+}
+
+.carrusel {
+    width: 100%;
+}
+
+.spacing {
+    margin-right: 20px;
+}
+
+.slick-list {
+    margin: 0 -10px;
+}
+.slick-slide > div {
+    padding: 0 10px;
+}

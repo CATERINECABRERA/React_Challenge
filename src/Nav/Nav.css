@@ -1,0 +1,48 @@
+.nav-allura {
+    border-bottom: 4px solid var(--Blue, #2271d1);
+    background: var(--Dark-Grey, #262626);
+    box-shadow:
+        0 4px 6px rgba(34, 113, 209, 0.4),
+        /* Blue shadow */ 0 1px 3px rgba(34, 113, 209, 0.3); /* Blue shadow */
+    height: 5.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+.nav-allura__navigation {
+    padding-right: 35px;
+}
+
+.nav-allura__home,
+.nav-allura__nuevo_video {
+    display: inline-block;
+    flex-shrink: 0;
+    width: 155px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 900;
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgba(0, 18, 51, 0.56);
+    height: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid var(--Blue, #2271d1);
+    box-shadow:
+        0 4px 6px rgba(34, 113, 209, 0.4),
+        0 1px 3px rgba(34, 113, 209, 0.3);
+}
+
+.nav-allura__home {
+    margin-right: 15px;
+    color: var(--Blue, #2271d1);
+}
+
+.nav-allura__nuevo_video {
+    border: 1px solid var(--Blue, #ffffff);
+}
